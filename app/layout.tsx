@@ -1,6 +1,7 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
+import { logout } from "./actions/auth";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -16,6 +17,15 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "CEH Practice Test",
   description: "Certified Ethical Hacker practice questions with answers and explanations.",
+  appleWebApp: {
+    capable: true,
+    title: "CEH Quiz",
+    statusBarStyle: "default",
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#1f6feb",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -29,6 +39,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <nav>
             <Link href="/">Quiz</Link>
             <Link href="/study">Study guide</Link>
+            <form action={logout}>
+              <button type="submit" className="nav-button">
+                Log out
+              </button>
+            </form>
           </nav>
         </header>
         <main className="container">{children}</main>

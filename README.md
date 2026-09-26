@@ -1,6 +1,6 @@
 # CEH Practice Test
 
-A Next.js app for practicing Certified Ethical Hacker (CEH) exam questions. It has 396 multiple-choice questions, and each one comes with an answer and a short explanation.
+A Next.js app for practicing Certified Ethical Hacker (CEH) exam questions. It has 398 multiple-choice questions, and each one comes with an answer and a short explanation. The app is behind a login.
 
 ## Features
 
@@ -11,7 +11,21 @@ A Next.js app for practicing Certified Ethical Hacker (CEH) exam questions. It h
 - **Study guide** (`/study`): every question with its answer, plus search.
 - About ten questions are marked **Disputed answer** because answer keys online disagree on them. Double-check those against the official courseware.
 
+## Login setup
+
+The login uses three environment variables (see `.env.example`):
+
+| Variable | What it is |
+| --- | --- |
+| `AUTH_USERNAME` | The username you log in with |
+| `AUTH_PASSWORD` | The password you log in with |
+| `SESSION_SECRET` | A long random string that signs the login cookie |
+
+Until all three are set, the login page shows "Login isn't set up yet". A login lasts 30 days, and **Log out** in the header ends it early.
+
 ## Getting started
+
+Copy `.env.example` to `.env.local` and fill in the three values. Then run:
 
 ```bash
 npm install
@@ -19,6 +33,13 @@ npm run dev
 ```
 
 Then open http://localhost:3000.
+
+## Install on your phone
+
+The site is a web app you can add to your home screen, where it opens full screen like a normal app:
+
+- **iPhone (Safari)**: tap Share, then **Add to Home Screen**.
+- **Android (Chrome)**: tap the ⋮ menu, then **Install app** (or **Add to Home screen**).
 
 ## Editing questions
 
@@ -37,4 +58,10 @@ All questions live in [`data/questions.json`](data/questions.json):
 
 ## Deploying
 
-The app is fully static, so it deploys to Vercel with no configuration: import the repo and click Deploy.
+No `vercel.json` is needed. Vercel detects Next.js automatically.
+
+1. On vercel.com, choose **Add New → Project** and import this repo.
+2. Under **Environment Variables**, add `AUTH_USERNAME`, `AUTH_PASSWORD` and `SESSION_SECRET`.
+3. Click **Deploy**.
+
+If you change a variable later, redeploy so the change takes effect.

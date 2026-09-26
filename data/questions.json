@@ -9512,5 +9512,53 @@
   ],
   "answer": "B",
   "explanation": "Inferring correctness from timing is a side-channel (timing) attack."
+ },
+ {
+  "id": 398,
+  "question": "If an attacker uses the command SELECT * FROM user WHERE name = 'x' AND userid IS NULL; --'; which type of SQL injection attack is the attacker performing?",
+  "options": [
+   {
+    "key": "A",
+    "text": "End of Line Comment"
+   },
+   {
+    "key": "B",
+    "text": "UNION SQL Injection"
+   },
+   {
+    "key": "C",
+    "text": "Illegal/Logically Incorrect Query"
+   },
+   {
+    "key": "D",
+    "text": "Tautology"
+   }
+  ],
+  "answer": "A",
+  "explanation": "The trailing '--' comments out the rest of the original query. That is an end-of-line comment injection."
+ },
+ {
+  "id": 399,
+  "question": "Sophia travels a lot and worries that her laptop containing confidential documents might be stolen. What is the best protection that will work for her?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Full Disk encryption"
+   },
+   {
+    "key": "B",
+    "text": "BIOS password"
+   },
+   {
+    "key": "C",
+    "text": "Hidden folders"
+   },
+   {
+    "key": "D",
+    "text": "Password protected files"
+   }
+  ],
+  "answer": "A",
+  "explanation": "Full disk encryption keeps all data unreadable if the laptop is stolen. BIOS passwords and hidden folders are easy to bypass by removing the drive."
  }
 ]
