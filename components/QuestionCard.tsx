@@ -12,6 +12,7 @@ export default function QuestionCard({ question, selected, revealed, onSelect }:
     <article className="card">
       <div className="card-meta">
         <span>Q{question.id}</span>
+        <span className="topic">{question.topic}</span>
         {revealed && question.disputed && (
           <span className="badge" title="Different answer keys disagree on this one">
             Disputed answer

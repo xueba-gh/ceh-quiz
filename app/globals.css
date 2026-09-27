@@ -130,6 +130,180 @@ h1 {
   font-size: 0.9rem;
 }
 
+.site-header nav {
+  align-items: center;
+}
+
+@media (max-width: 420px) {
+  .site-header {
+    padding: 12px 14px;
+    font-size: 0.92rem;
+  }
+
+  .site-header nav {
+    gap: 12px;
+  }
+
+  .panel,
+  .card {
+    padding: 16px;
+  }
+}
+
+.site-header nav a.active {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.topic {
+  font-family: var(--font-geist-sans), sans-serif;
+  border: 1px solid var(--border);
+  padding: 1px 8px;
+  border-radius: 999px;
+}
+
+.resume {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  border-color: var(--accent);
+}
+
+.actions.tight {
+  margin-top: 0;
+}
+
+.shortcuts {
+  margin-top: 18px;
+}
+
+.history {
+  margin-top: 16px;
+}
+
+.history-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.history h2 {
+  font-size: 1.05rem;
+}
+
+.history ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.history li {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 8px 0;
+  border-top: 1px solid var(--border);
+  font-size: 0.92rem;
+}
+
+.history .date {
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.score {
+  font-weight: 700;
+  min-width: 3.2em;
+}
+
+.score.pass {
+  color: var(--ok);
+}
+
+.score.fail {
+  color: var(--bad);
+}
+
+.timer.low {
+  color: var(--bad);
+  font-weight: 600;
+}
+
+.toolbar-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+.chip {
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  cursor: pointer;
+  font-size: 0.88rem;
+}
+
+.chip.on {
+  border-color: var(--warn);
+  color: var(--warn);
+  background: var(--warn-bg);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+  gap: 6px;
+  margin-top: 12px;
+  padding: 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.cell {
+  position: relative;
+  height: 36px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.cell.answered {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-text);
+}
+
+.cell.right {
+  background: var(--ok-bg);
+  border-color: var(--ok);
+}
+
+.cell.wrong {
+  background: var(--bad-bg);
+  border-color: var(--bad);
+}
+
+.cell.current {
+  outline: 2px solid var(--text);
+  outline-offset: 1px;
+}
+
+.cell.flag::after {
+  content: "★";
+  position: absolute;
+  top: -6px;
+  right: -4px;
+  font-size: 0.7rem;
+  color: var(--warn);
+}
+
 .nav-button {
   background: none;
   border: none;

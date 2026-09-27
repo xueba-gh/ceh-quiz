@@ -21,7 +21,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "The malicious site silently sent a forged request using the user's active bank session. That is Cross-Site Request Forgery (CSRF)."
+  "explanation": "The malicious site silently sent a forged request using the user's active bank session. That is Cross-Site Request Forgery (CSRF).",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 2,
@@ -45,7 +46,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "The Certificate Authority (CA) issues certificates and vouches for the identity of the subject."
+  "explanation": "The Certificate Authority (CA) issues certificates and vouches for the identity of the subject.",
+  "topic": "Cryptography"
  },
  {
   "id": 3,
@@ -69,7 +71,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "XSS injects client-side script into pages that other users view."
+  "explanation": "XSS injects client-side script into pages that other users view.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 4,
@@ -94,7 +97,8 @@
   ],
   "answer": "D",
   "explanation": "In the CEH model, encryption and decryption are Presentation layer (Layer 6) functions.",
-  "disputed": true
+  "disputed": true,
+  "topic": "Cryptography"
  },
  {
   "id": 5,
@@ -118,7 +122,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "When the AP ignores association requests from a client it can see, MAC filtering is the likely cause."
+  "explanation": "When the AP ignores association requests from a client it can see, MAC filtering is the likely cause.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 6,
@@ -142,7 +147,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "-F (fast mode) scans the top 100 ports instead of the default 1,000."
+  "explanation": "-F (fast mode) scans the top 100 ports instead of the default 1,000.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 7,
@@ -166,7 +172,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "PKI is the structure of CAs, RAs and certificates used to verify and authenticate identities."
+  "explanation": "PKI is the structure of CAs, RAs and certificates used to verify and authenticate identities.",
+  "topic": "Cryptography"
  },
  {
   "id": 8,
@@ -190,7 +197,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Spoofing the boss's email to trick the receptionist is social engineering."
+  "explanation": "Spoofing the boss's email to trick the receptionist is social engineering.",
+  "topic": "Footprinting & Reconnaissance"
  },
  {
   "id": 9,
@@ -214,7 +222,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "hping can craft TCP (e.g. SYN/ACK) probes to elicit responses when ICMP is blocked."
+  "explanation": "hping can craft TCP (e.g. SYN/ACK) probes to elicit responses when ICMP is blocked.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 10,
@@ -238,7 +247,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Scanners first check whether the host is alive, then scan ports, then detect the OS and services."
+  "explanation": "Scanners first check whether the host is alive, then scan ports, then detect the OS and services.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 11,
@@ -262,7 +272,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Macro viruses target Microsoft Office documents (Word/Excel macros)."
+  "explanation": "Macro viruses target Microsoft Office documents (Word/Excel macros).",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 12,
@@ -286,7 +297,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Gaining access to another account's resources from a compromised account is privilege escalation (horizontal)."
+  "explanation": "Gaining access to another account's resources from a compromised account is privilege escalation (horizontal).",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 13,
@@ -310,7 +322,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Local traffic works, so addressing is fine. The gateway is not routing out to the public Internet (e.g. missing NAT or route)."
+  "explanation": "Local traffic works, so addressing is fine. The gateway is not routing out to the public Internet (e.g. missing NAT or route).",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 14,
@@ -334,7 +347,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "NTP uses UDP port 123."
+  "explanation": "NTP uses UDP port 123.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 15,
@@ -358,7 +372,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Monitoring employees without notifying them may violate privacy laws. Employees must be informed."
+  "explanation": "Monitoring employees without notifying them may violate privacy laws. Employees must be informed.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 16,
@@ -382,7 +397,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Nikto is a web server scanner that tests for dangerous files and CGIs."
+  "explanation": "Nikto is a web server scanner that tests for dangerous files and CGIs.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 17,
@@ -406,7 +422,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Log timestamps don't line up because device clocks aren't synchronized (NTP)."
+  "explanation": "Log timestamps don't line up because device clocks aren't synchronized (NTP).",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 18,
@@ -430,7 +447,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "nslookup -norecursive asks the DNS server only for cached data, which reveals whether the entry is in its cache."
+  "explanation": "nslookup -norecursive asks the DNS server only for cached data, which reveals whether the entry is in its cache.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 19,
@@ -454,7 +472,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Unicode/URL encoding of characters is a very common way to evade web IDS signatures."
+  "explanation": "Unicode/URL encoding of characters is a very common way to evade web IDS signatures.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 20,
@@ -478,7 +497,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "John the Ripper is a password cracker."
+  "explanation": "John the Ripper is a password cracker.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 21,
@@ -502,7 +522,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "DNSSEC digitally signs DNS records and prevents cache poisoning."
+  "explanation": "DNSSEC digitally signs DNS records and prevents cache poisoning.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 22,
@@ -526,7 +547,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Only an application-layer firewall (proxy) can tell IRC from HTTP on the same port 80."
+  "explanation": "Only an application-layer firewall (proxy) can tell IRC from HTTP on the same port 80.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 23,
@@ -550,7 +572,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Smart card = something you have. PIN = something you know."
+  "explanation": "Smart card = something you have. PIN = something you know.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 24,
@@ -574,7 +597,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "A rogue AP posing as a legitimate hotspot is an Evil Twin."
+  "explanation": "A rogue AP posing as a legitimate hotspot is an Evil Twin.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 25,
@@ -598,7 +622,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Isolate public-facing services in a DMZ so compromising a single server doesn't expose internal financial data."
+  "explanation": "Isolate public-facing services in a DMZ so compromising a single server doesn't expose internal financial data.",
+  "topic": "Cryptography"
  },
  {
   "id": 26,
@@ -622,7 +647,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Residual risk is the risk that remains after controls are applied."
+  "explanation": "Residual risk is the risk that remains after controls are applied.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 27,
@@ -646,7 +672,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Offline backups let you restore data without paying, and ransomware can't encrypt them."
+  "explanation": "Offline backups let you restore data without paying, and ransomware can't encrypt them.",
+  "topic": "Cryptography"
  },
  {
   "id": 28,
@@ -670,7 +697,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Whisker (RFP's libwhisker) implements session splicing for IDS evasion."
+  "explanation": "Whisker (RFP's libwhisker) implements session splicing for IDS evasion.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 29,
@@ -694,7 +722,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "-T4 -F on the correct /24 quickly finds live hosts and their top ports."
+  "explanation": "-T4 -F on the correct /24 quickly finds live hosts and their top ports.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 30,
@@ -718,7 +747,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "The Rules of Engagement define what testing is allowed and protect both the client and the tester."
+  "explanation": "The Rules of Engagement define what testing is allowed and protect both the client and the tester.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 31,
@@ -742,7 +772,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Encryption makes sniffed traffic unreadable, so it is the best defense against sniffing."
+  "explanation": "Encryption makes sniffed traffic unreadable, so it is the best defense against sniffing.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 32,
@@ -766,7 +797,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Height and weight are not unique enough for biometric identification."
+  "explanation": "Height and weight are not unique enough for biometric identification.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 33,
@@ -790,7 +822,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "IPsec works at Layer 3 and can encrypt any traffic end-to-end, including FTP."
+  "explanation": "IPsec works at Layer 3 and can encrypt any traffic end-to-end, including FTP.",
+  "topic": "Cryptography"
  },
  {
   "id": 34,
@@ -814,7 +847,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Source 10.10.10.0/24 to destination 10.20.20.1 on port 443 (HTTPS) only."
+  "explanation": "Source 10.10.10.0/24 to destination 10.20.20.1 on port 443 (HTTPS) only.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 35,
@@ -838,7 +872,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Encrypt the tapes for confidentiality and keep them in a lock box for physical security."
+  "explanation": "Encrypt the tapes for confidentiality and keep them in a lock box for physical security.",
+  "topic": "Cryptography"
  },
  {
   "id": 36,
@@ -862,7 +897,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Access by IP works but by name fails, so DNS (UDP 53) is blocked."
+  "explanation": "Access by IP works but by name fails, so DNS (UDP 53) is blocked.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 37,
@@ -886,7 +922,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Kismet is a Linux 802.11 wireless detector, sniffer and IDS."
+  "explanation": "Kismet is a Linux 802.11 wireless detector, sniffer and IDS.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 38,
@@ -911,7 +948,8 @@
   ],
   "answer": "A",
   "explanation": "Many compromised internal hosts beaconing to a single blacklisted C2 IP indicates a botnet.",
-  "disputed": true
+  "disputed": true,
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 39,
@@ -935,7 +973,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "A transparent iframe that captures the victim's clicks is clickjacking (UI redressing)."
+  "explanation": "A transparent iframe that captures the victim's clicks is clickjacking (UI redressing).",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 40,
@@ -959,7 +998,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Weak file system permissions let the anonymous user upload and execute files."
+  "explanation": "Weak file system permissions let the anonymous user upload and execute files.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 41,
@@ -983,7 +1023,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "C/C++ has no built-in bounds checking (the option 'Cff' is C++ with mangled characters)."
+  "explanation": "C/C++ has no built-in bounds checking (the option 'Cff' is C++ with mangled characters).",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 42,
@@ -1007,7 +1048,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "IPsec operates at the Network layer (3), not the Data Link layer."
+  "explanation": "IPsec operates at the Network layer (3), not the Data Link layer.",
+  "topic": "Cryptography"
  },
  {
   "id": 43,
@@ -1031,7 +1073,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Routing protocol authentication stops rogue routers from injecting routes."
+  "explanation": "Routing protocol authentication stops rogue routers from injecting routes.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 44,
@@ -1055,7 +1098,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Brute force tries every possible combination, so it takes the most time."
+  "explanation": "Brute force tries every possible combination, so it takes the most time.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 45,
@@ -1079,7 +1123,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Changing DNS records to redirect users is DNS spoofing/poisoning."
+  "explanation": "Changing DNS records to redirect users is DNS spoofing/poisoning.",
+  "topic": "Footprinting & Reconnaissance"
  },
  {
   "id": 46,
@@ -1103,7 +1148,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Ports 515 (LPD), 631 (IPP) and 9100 (JetDirect) indicate a printer."
+  "explanation": "Ports 515 (LPD), 631 (IPP) and 9100 (JetDirect) indicate a printer.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 47,
@@ -1127,7 +1173,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Processing speed is the time from presenting the biometric to accept/reject."
+  "explanation": "Processing speed is the time from presenting the biometric to accept/reject.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 48,
@@ -1151,7 +1198,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "-T0 (paranoid) timing is the slowest and quietest. -sT -O with T0 is the least noisy option listed."
+  "explanation": "-T0 (paranoid) timing is the slowest and quietest. -sT -O with T0 is the least noisy option listed.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 49,
@@ -1175,7 +1223,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "-oX writes output in XML format to a file."
+  "explanation": "-oX writes output in XML format to a file.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 50,
@@ -1199,7 +1248,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "First determine the impact (performance, storage) of enabling auditing."
+  "explanation": "First determine the impact (performance, storage) of enabling auditing.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 51,
@@ -1223,7 +1273,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "A NIDS monitors sensitive network segments across large environments."
+  "explanation": "A NIDS monitors sensitive network segments across large environments.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 52,
@@ -1247,7 +1298,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "OSINT is publicly available, overt information."
+  "explanation": "OSINT is publicly available, overt information.",
+  "topic": "Footprinting & Reconnaissance"
  },
  {
   "id": 53,
@@ -1271,7 +1323,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Asymmetric crypto is slow but good for key exchange. Symmetric crypto then encrypts bulk data efficiently."
+  "explanation": "Asymmetric crypto is slow but good for key exchange. Symmetric crypto then encrypts bulk data efficiently.",
+  "topic": "Cryptography"
  },
  {
   "id": 54,
@@ -1295,7 +1348,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "SLE = $300 + 14h x $10 = $440. ARO = 1/3. ALE = 440/3 = about $146."
+  "explanation": "SLE = $300 + 14h x $10 = $440. ARO = 1/3. ALE = 440/3 = about $146.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 55,
@@ -1319,7 +1373,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "The meet-in-the-middle attack is why Double-DES adds little security."
+  "explanation": "The meet-in-the-middle attack is why Double-DES adds little security.",
+  "topic": "Cryptography"
  },
  {
   "id": 56,
@@ -1343,7 +1398,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Gait (something you are) plus an RFID badge (something you have) is two factors."
+  "explanation": "Gait (something you are) plus an RFID badge (something you have) is two factors.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 57,
@@ -1367,7 +1423,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "PCI DSS doesn't require rotating staff between departments."
+  "explanation": "PCI DSS doesn't require rotating staff between departments.",
+  "topic": "Cryptography"
  },
  {
   "id": 58,
@@ -1391,7 +1448,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "A multi-homed firewall has at least 3 interfaces (internal, external, DMZ)."
+  "explanation": "A multi-homed firewall has at least 3 interfaces (internal, external, DMZ).",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 59,
@@ -1415,7 +1473,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "The residual risk of 10% is below the 20% threshold, so accept it."
+  "explanation": "The residual risk of 10% is below the 20% threshold, so accept it.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 60,
@@ -1439,7 +1498,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Only the web server faces the Internet. App and DB servers stay internal (3-tier)."
+  "explanation": "Only the web server faces the Internet. App and DB servers stay internal (3-tier).",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 61,
@@ -1463,7 +1523,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Ettercap can perform MITM and inject/filter content in traffic."
+  "explanation": "Ettercap can perform MITM and inject/filter content in traffic.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 62,
@@ -1487,7 +1548,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "ESP transport mode gives host-to-host encryption within a LAN."
+  "explanation": "ESP transport mode gives host-to-host encryption within a LAN.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 63,
@@ -1511,7 +1573,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Researching the target is reconnaissance (footprinting)."
+  "explanation": "Researching the target is reconnaissance (footprinting).",
+  "topic": "Social Engineering"
  },
  {
   "id": 64,
@@ -1535,7 +1598,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Stealth/tunneling viruses intercept OS/AV service calls to hide themselves."
+  "explanation": "Stealth/tunneling viruses intercept OS/AV service calls to hide themselves.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 65,
@@ -1559,7 +1623,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "In gray-box testing the tester has partial knowledge of the internals."
+  "explanation": "In gray-box testing the tester has partial knowledge of the internals.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 66,
@@ -1583,7 +1648,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Legitimate admin activity that triggered an alert is a false positive."
+  "explanation": "Legitimate admin activity that triggered an alert is a false positive.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 67,
@@ -1607,7 +1673,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "BBProxy is used for Blackjacking BlackBerry devices."
+  "explanation": "BBProxy is used for Blackjacking BlackBerry devices.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 68,
@@ -1631,7 +1698,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "The http-methods NSE script lists supported HTTP methods."
+  "explanation": "The http-methods NSE script lists supported HTTP methods.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 69,
@@ -1655,7 +1723,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Counter-based (HOTP) tokens generate one-time passwords from a secret key and a counter."
+  "explanation": "Counter-based (HOTP) tokens generate one-time passwords from a secret key and a counter.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 70,
@@ -1679,7 +1748,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Social engineering is the low-tech way in."
+  "explanation": "Social engineering is the low-tech way in.",
+  "topic": "Social Engineering"
  },
  {
   "id": 71,
@@ -1703,7 +1773,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "WHOIS databases hold domain registration contact info."
+  "explanation": "WHOIS databases hold domain registration contact info.",
+  "topic": "Footprinting & Reconnaissance"
  },
  {
   "id": 72,
@@ -1727,7 +1798,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Pen tests actively exploit vulnerabilities. Vulnerability scans don't."
+  "explanation": "Pen tests actively exploit vulnerabilities. Vulnerability scans don't.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 73,
@@ -1751,7 +1823,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Anyone can register a @yahoo.com address, so this is a scam."
+  "explanation": "Anyone can register a @yahoo.com address, so this is a scam.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 74,
@@ -1775,7 +1848,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "The payload runs 'cat /etc/passwd', which displays the file."
+  "explanation": "The payload runs 'cat /etc/passwd', which displays the file.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 75,
@@ -1799,7 +1873,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Hashes verify integrity."
+  "explanation": "Hashes verify integrity.",
+  "topic": "Cryptography"
  },
  {
   "id": 76,
@@ -1823,7 +1898,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "The minus operator excludes Marketing.target.com. Results are 'accounting' within target.com."
+  "explanation": "The minus operator excludes Marketing.target.com. Results are 'accounting' within target.com.",
+  "topic": "Footprinting & Reconnaissance"
  },
  {
   "id": 77,
@@ -1847,7 +1923,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "STARTTLS upgrades an SMTP connection to TLS."
+  "explanation": "STARTTLS upgrades an SMTP connection to TLS.",
+  "topic": "Cryptography"
  },
  {
   "id": 78,
@@ -1871,7 +1948,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Rubber-hose cryptanalysis extracts secrets by coercion or torture."
+  "explanation": "Rubber-hose cryptanalysis extracts secrets by coercion or torture.",
+  "topic": "Cryptography"
  },
  {
   "id": 79,
@@ -1895,7 +1973,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Syslog alerts go TO the kiwi server: dst port 514 and dst IP 192.168.0.150."
+  "explanation": "Syslog alerts go TO the kiwi server: dst port 514 and dst IP 192.168.0.150.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 80,
@@ -1919,7 +1998,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "A digital signature must be unforgeable and authentic."
+  "explanation": "A digital signature must be unforgeable and authentic.",
+  "topic": "Cryptography"
  },
  {
   "id": 81,
@@ -1943,7 +2023,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Deleting cookies prevents theft of session/authentication cookies."
+  "explanation": "Deleting cookies prevents theft of session/authentication cookies.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 82,
@@ -1967,7 +2048,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "A signature is the document hash encrypted with the signer's private key, so it is bound to that document."
+  "explanation": "A signature is the document hash encrypted with the signer's private key, so it is bound to that document.",
+  "topic": "Cryptography"
  },
  {
   "id": 83,
@@ -1991,7 +2073,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "As the root bridge, the attacker can set up SPAN/mirroring to capture traffic (MITM)."
+  "explanation": "As the root bridge, the attacker can set up SPAN/mirroring to capture traffic (MITM).",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 84,
@@ -2015,7 +2098,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "chntpw resets Windows passwords and enables accounts offline."
+  "explanation": "chntpw resets Windows passwords and enables accounts offline.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 85,
@@ -2039,7 +2123,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Firewalls inspect transport-layer ports and application-layer headers."
+  "explanation": "Firewalls inspect transport-layer ports and application-layer headers.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 86,
@@ -2063,7 +2148,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Modifying the hosts file redirects the domain to the attacker's IP."
+  "explanation": "Modifying the hosts file redirects the domain to the attacker's IP.",
+  "topic": "Social Engineering"
  },
  {
   "id": 87,
@@ -2087,7 +2173,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "DNSSEC provides origin authentication of DNS data."
+  "explanation": "DNSSEC provides origin authentication of DNS data.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 88,
@@ -2111,7 +2198,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Defining rules, building the team, backup plans and testing all happen in the Preparation phase."
+  "explanation": "Defining rules, building the team, backup plans and testing all happen in the Preparation phase.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 89,
@@ -2135,7 +2223,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Promiscuous mode passes all frames to the CPU."
+  "explanation": "Promiscuous mode passes all frames to the CPU.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 90,
@@ -2159,7 +2248,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Defense in depth: harden the elements and audit regularly, even behind firewalls."
+  "explanation": "Defense in depth: harden the elements and audit regularly, even behind firewalls.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 91,
@@ -2183,7 +2273,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "PGP, SSL and IKE all use public key cryptography."
+  "explanation": "PGP, SSL and IKE all use public key cryptography.",
+  "topic": "Cryptography"
  },
  {
   "id": 92,
@@ -2207,7 +2298,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Gathering information about a target is footprinting."
+  "explanation": "Gathering information about a target is footprinting.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 93,
@@ -2231,7 +2323,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Gray hats work both offensively and defensively."
+  "explanation": "Gray hats work both offensively and defensively.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 94,
@@ -2255,7 +2348,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Separate external/internal DNS servers is Split DNS."
+  "explanation": "Separate external/internal DNS servers is Split DNS.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 95,
@@ -2279,7 +2373,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Analysis done in the provider's environment is cloud-based detection."
+  "explanation": "Analysis done in the provider's environment is cloud-based detection.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 96,
@@ -2303,7 +2398,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "tcptrace analyzes capture files from tcpdump, Wireshark, etc."
+  "explanation": "tcptrace analyzes capture files from tcpdump, Wireshark, etc.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 97,
@@ -2327,7 +2423,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Firewalking uses TTL-expiring packets to find open ports through a firewall."
+  "explanation": "Firewalking uses TTL-expiring packets to find open ports through a firewall.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 98,
@@ -2351,7 +2448,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Bluedriving is war-driving discovery of Bluetooth devices, not an attack. The others are attacks."
+  "explanation": "Bluedriving is war-driving discovery of Bluetooth devices, not an attack. The others are attacks.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 99,
@@ -2375,7 +2473,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Automation speeds up repeatable tests but cannot fully replace manual testing."
+  "explanation": "Automation speeds up repeatable tests but cannot fully replace manual testing.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 100,
@@ -2399,7 +2498,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Evidence of serious crime: stop work and contact the proper legal authorities."
+  "explanation": "Evidence of serious crime: stop work and contact the proper legal authorities.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 101,
@@ -2423,7 +2523,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Changing URL parameters (Damount/Camount) to alter behaviour is web parameter tampering."
+  "explanation": "Changing URL parameters (Damount/Camount) to alter behaviour is web parameter tampering.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 102,
@@ -2447,7 +2548,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "The client starts the handshake with SYN. The server answers SYN-ACK and the client sends ACK."
+  "explanation": "The client starts the handshake with SYN. The server answers SYN-ACK and the client sends ACK.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 103,
@@ -2471,7 +2573,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Bollards are posts that stop vehicles from ramming entrances."
+  "explanation": "Bollards are posts that stop vehicles from ramming entrances.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 104,
@@ -2495,7 +2598,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "A hash of the approved document lets the accountant check that it wasn't modified."
+  "explanation": "A hash of the approved document lets the accountant check that it wasn't modified.",
+  "topic": "Cryptography"
  },
  {
   "id": 105,
@@ -2519,7 +2623,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "A DMZ exposes only its own hosts to the outside and protects the internal network behind it."
+  "explanation": "A DMZ exposes only its own hosts to the outside and protects the internal network behind it.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 106,
@@ -2543,7 +2648,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "host -t a returns the A record (IPv4 address)."
+  "explanation": "host -t a returns the A record (IPv4 address).",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 107,
@@ -2567,7 +2673,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Shellshock is a Bash bug. Windows doesn't use Bash by default."
+  "explanation": "Shellshock is a Bash bug. Windows doesn't use Bash by default.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 108,
@@ -2591,7 +2698,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "NIST SP 800-53 defines security and privacy controls for US federal systems."
+  "explanation": "NIST SP 800-53 defines security and privacy controls for US federal systems.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 109,
@@ -2615,7 +2723,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "A collision attack finds two inputs that produce the same hash."
+  "explanation": "A collision attack finds two inputs that produce the same hash.",
+  "topic": "Cryptography"
  },
  {
   "id": 110,
@@ -2639,7 +2748,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "tcpdump captures traffic passively, and that traffic can be fingerprinted (e.g. with p0f)."
+  "explanation": "tcpdump captures traffic passively, and that traffic can be fingerprinted (e.g. with p0f).",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 111,
@@ -2663,7 +2773,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "A boot sector virus moves the MBR elsewhere on the disk and puts itself in the MBR's place."
+  "explanation": "A boot sector virus moves the MBR elsewhere on the disk and puts itself in the MBR's place.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 112,
@@ -2687,7 +2798,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "A vulnerability scanner such as Nessus is the best way to find vulnerabilities."
+  "explanation": "A vulnerability scanner such as Nessus is the best way to find vulnerabilities.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 113,
@@ -2711,7 +2823,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "tcpdump is the command-line counterpart to Wireshark."
+  "explanation": "tcpdump is the command-line counterpart to Wireshark.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 114,
@@ -2735,7 +2848,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Dynamic ARP Inspection validates ARP packets against the DHCP snooping bindings."
+  "explanation": "Dynamic ARP Inspection validates ARP packets against the DHCP snooping bindings.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 115,
@@ -2759,7 +2873,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "802.1X port-based authentication stops unauthorized devices from using wired ports."
+  "explanation": "802.1X port-based authentication stops unauthorized devices from using wired ports.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 116,
@@ -2783,7 +2898,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "FTP (port 21) sends data in cleartext. The filter is tcp.port == 21."
+  "explanation": "FTP (port 21) sends data in cleartext. The filter is tcp.port == 21.",
+  "topic": "Cryptography"
  },
  {
   "id": 117,
@@ -2807,7 +2923,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "'alert tcp any any -> ...' is Snort IDS rule syntax."
+  "explanation": "'alert tcp any any -> ...' is Snort IDS rule syntax.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 118,
@@ -2831,7 +2948,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "A multipartite virus infects both boot sectors and executables."
+  "explanation": "A multipartite virus infects both boot sectors and executables.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 119,
@@ -2855,7 +2973,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Fuzzing feeds random or invalid input to crash a program."
+  "explanation": "Fuzzing feeds random or invalid input to crash a program.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 120,
@@ -2879,7 +2998,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "A protocol analyzer (e.g. Wireshark) can decode the PCAP to verify the alert."
+  "explanation": "A protocol analyzer (e.g. Wireshark) can decode the PCAP to verify the alert.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 121,
@@ -2903,7 +3023,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Heartbleed leaks server memory, including the private key."
+  "explanation": "Heartbleed leaks server memory, including the private key.",
+  "topic": "Cryptography"
  },
  {
   "id": 122,
@@ -2927,7 +3048,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Unnecessary ISAPI filters widen the IIS attack surface, so removing them defends against web server attacks."
+  "explanation": "Unnecessary ISAPI filters widen the IIS attack surface, so removing them defends against web server attacks.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 123,
@@ -2951,7 +3073,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Administrative safeguards are part of a risk assessment (HIPAA risk analysis)."
+  "explanation": "Administrative safeguards are part of a risk assessment (HIPAA risk analysis).",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 124,
@@ -2975,7 +3098,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "An external email with a forged internal From address got through, so the gateway doesn't stop spoofing."
+  "explanation": "An external email with a forged internal From address got through, so the gateway doesn't stop spoofing.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 125,
@@ -2999,7 +3123,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "A DMZ is always relevant when internet-facing servers coexist with workstations."
+  "explanation": "A DMZ is always relevant when internet-facing servers coexist with workstations.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 126,
@@ -3023,7 +3148,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "SMTP VRFY verifies whether a user exists."
+  "explanation": "SMTP VRFY verifies whether a user exists.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 127,
@@ -3047,7 +3173,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Infoga gathers email info (IP, hostname, country) and checks haveibeenpwned."
+  "explanation": "Infoga gathers email info (IP, hostname, country) and checks haveibeenpwned.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 128,
@@ -3071,7 +3198,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "FCC ID search shows device model and certification details."
+  "explanation": "FCC ID search shows device model and certification details.",
+  "topic": "Cloud, IoT & OT"
  },
  {
   "id": 129,
@@ -3095,7 +3223,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "The site: operator restricts results to a domain."
+  "explanation": "The site: operator restricts results to a domain.",
+  "topic": "Footprinting & Reconnaissance"
  },
  {
   "id": 130,
@@ -3119,7 +3248,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "The Docker daemon (dockerd) processes API requests and manages objects."
+  "explanation": "The Docker daemon (dockerd) processes API requests and manages objects.",
+  "topic": "Cloud, IoT & OT"
  },
  {
   "id": 131,
@@ -3143,7 +3273,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Creating the backdoor payload to deliver is weaponization."
+  "explanation": "Creating the backdoor payload to deliver is weaponization.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 132,
@@ -3167,7 +3298,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "CVSS v3: 4.0 to 6.9 is Medium."
+  "explanation": "CVSS v3: 4.0 to 6.9 is Medium.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 133,
@@ -3191,7 +3323,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Encrypt with the recipient's (Marie's) public key."
+  "explanation": "Encrypt with the recipient's (Marie's) public key.",
+  "topic": "Cryptography"
  },
  {
   "id": 134,
@@ -3215,7 +3348,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Pop-up ads and slowdown point to adware."
+  "explanation": "Pop-up ads and slowdown point to adware.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 135,
@@ -3239,7 +3373,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Out-of-band SQLi exfiltrates data via DNS/HTTP requests from the DB server."
+  "explanation": "Out-of-band SQLi exfiltrates data via DNS/HTTP requests from the DB server.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 136,
@@ -3263,7 +3398,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Encryption viruses encrypt themselves with a different key on each infection."
+  "explanation": "Encryption viruses encrypt themselves with a different key on each infection.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 137,
@@ -3287,7 +3423,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "TCP 48101 is used by Mirai-style IoT malware to spread. Block it first."
+  "explanation": "TCP 48101 is used by Mirai-style IoT malware to spread. Block it first.",
+  "topic": "Cloud, IoT & OT"
  },
  {
   "id": 138,
@@ -3311,7 +3448,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "A reverse shell uses LHOST (the attacker). '-f exe > shell.exe' produces a Windows executable."
+  "explanation": "A reverse shell uses LHOST (the attacker). '-f exe > shell.exe' produces a Windows executable.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 139,
@@ -3335,7 +3473,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "DROWN abuses SSLv2 on a server sharing the same key to decrypt TLS."
+  "explanation": "DROWN abuses SSLv2 on a server sharing the same key to decrypt TLS.",
+  "topic": "Cryptography"
  },
  {
   "id": 140,
@@ -3359,7 +3498,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "-PS is TCP SYN ping. -sn disables port scanning."
+  "explanation": "-PS is TCP SYN ping. -sn disables port scanning.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 141,
@@ -3383,7 +3523,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Compromising the MSP to reach its customers is Operation Cloud Hopper."
+  "explanation": "Compromising the MSP to reach its customers is Operation Cloud Hopper.",
+  "topic": "Cloud, IoT & OT"
  },
  {
   "id": 142,
@@ -3407,7 +3548,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "JXplorer is an LDAP browser used for LDAP enumeration."
+  "explanation": "JXplorer is an LDAP browser used for LDAP enumeration.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 143,
@@ -3431,7 +3573,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Domain owner, contacts and creation/expiry dates come from Whois."
+  "explanation": "Domain owner, contacts and creation/expiry dates come from Whois.",
+  "topic": "Footprinting & Reconnaissance"
  },
  {
   "id": 144,
@@ -3455,7 +3598,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Posing as tech support and offering 'help' in exchange for actions is quid pro quo."
+  "explanation": "Posing as tech support and offering 'help' in exchange for actions is quid pro quo.",
+  "topic": "Social Engineering"
  },
  {
   "id": 145,
@@ -3479,7 +3623,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Disabling SSID broadcast hides the network."
+  "explanation": "Disabling SSID broadcast hides the network.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 146,
@@ -3504,7 +3649,8 @@
   ],
   "answer": "C",
   "explanation": "They connected with no password, so they joined a look-alike open AP: an evil twin.",
-  "disputed": true
+  "disputed": true,
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 147,
@@ -3528,7 +3674,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Hit-list scanning splits a pre-built list between new infections."
+  "explanation": "Hit-list scanning splits a pre-built list between new infections.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 148,
@@ -3552,7 +3699,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Using Tor/anonymous search engines to find hidden data is dark web footprinting."
+  "explanation": "Using Tor/anonymous search engines to find hidden data is dark web footprinting.",
+  "topic": "Footprinting & Reconnaissance"
  },
  {
   "id": 149,
@@ -3576,7 +3724,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Inference-based assessment builds a protocol inventory and runs only relevant tests."
+  "explanation": "Inference-based assessment builds a protocol inventory and runs only relevant tests.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 150,
@@ -3600,7 +3749,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Sign with the sender's private key. Verify with the sender's public key."
+  "explanation": "Sign with the sender's private key. Verify with the sender's public key.",
+  "topic": "Cryptography"
  },
  {
   "id": 151,
@@ -3624,7 +3774,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Exfiltration happens during Actions on Objectives."
+  "explanation": "Exfiltration happens during Actions on Objectives.",
+  "topic": "Footprinting & Reconnaissance"
  },
  {
   "id": 152,
@@ -3648,7 +3799,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "The provider manages everything but user accounts, which makes it SaaS."
+  "explanation": "The provider manages everything but user accounts, which makes it SaaS.",
+  "topic": "Cloud, IoT & OT"
  },
  {
   "id": 153,
@@ -3672,7 +3824,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Commands typed in the shell are recorded in .bash_history."
+  "explanation": "Commands typed in the shell are recorded in .bash_history.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 154,
@@ -3696,7 +3849,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Malware infection and credential phishing are Gaining Access."
+  "explanation": "Malware infection and credential phishing are Gaining Access.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 155,
@@ -3720,7 +3874,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Writing buff[10] in a 10-element array (0 to 9) is an out-of-bounds write, i.e. a buffer overflow."
+  "explanation": "Writing buff[10] in a 10-element array (0 to 9) is an out-of-bounds write, i.e. a buffer overflow.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 156,
@@ -3744,7 +3899,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Reported vulnerabilities that aren't real are false positives."
+  "explanation": "Reported vulnerabilities that aren't real are false positives.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 157,
@@ -3768,7 +3924,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "robots.txt lists directories the owner doesn't want crawled."
+  "explanation": "robots.txt lists directories the owner doesn't want crawled.",
+  "topic": "Footprinting & Reconnaissance"
  },
  {
   "id": 158,
@@ -3792,7 +3949,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "HackerOne hosts bug bounty programs."
+  "explanation": "HackerOne hosts bug bounty programs.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 159,
@@ -3816,7 +3974,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "A cloud shared among organizations with common concerns is a community cloud."
+  "explanation": "A cloud shared among organizations with common concerns is a community cloud.",
+  "topic": "Cloud, IoT & OT"
  },
  {
   "id": 160,
@@ -3840,7 +3999,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "ARP ping scans find live hosts on the local segment even when the firewall blocks IP probes."
+  "explanation": "ARP ping scans find live hosts on the local segment even when the firewall blocks IP probes.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 161,
@@ -3864,7 +4024,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Flowmon is an OT/ICS network monitoring and security tool."
+  "explanation": "Flowmon is an OT/ICS network monitoring and security tool.",
+  "topic": "Cloud, IoT & OT"
  },
  {
   "id": 162,
@@ -3889,7 +4050,8 @@
   ],
   "answer": "A",
   "explanation": "Posing as a technician to gain entry is impersonation.",
-  "disputed": true
+  "disputed": true,
+  "topic": "Social Engineering"
  },
  {
   "id": 163,
@@ -3913,7 +4075,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "FTPS adds TLS encryption and certificates to file transfer."
+  "explanation": "FTPS adds TLS encryption and certificates to file transfer.",
+  "topic": "Cryptography"
  },
  {
   "id": 164,
@@ -3937,7 +4100,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Fileless malware lives in memory and uses legitimate whitelisted tools (PowerShell, WMI)."
+  "explanation": "Fileless malware lives in memory and uses legitimate whitelisted tools (PowerShell, WMI).",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 165,
@@ -3961,7 +4125,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Encoding payloads with Unicode so the IDS misses them is obfuscation."
+  "explanation": "Encoding payloads with Unicode so the IDS misses them is obfuscation.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 166,
@@ -3985,7 +4150,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "A kernel rootkit sits in the OS core."
+  "explanation": "A kernel rootkit sits in the OS core.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 167,
@@ -4009,7 +4175,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "A honeypot is a decoy that lures attackers and gathers intel on them."
+  "explanation": "A honeypot is a decoy that lures attackers and gathers intel on them.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 168,
@@ -4033,7 +4200,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "EtherNet/IP uses UDP/TCP 44818. The enip-info script returns vendor and device details."
+  "explanation": "EtherNet/IP uses UDP/TCP 44818. The enip-info script returns vendor and device details.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 169,
@@ -4057,7 +4225,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "3DES uses 64-bit blocks and three 56-bit keys."
+  "explanation": "3DES uses 64-bit blocks and three 56-bit keys.",
+  "topic": "Cryptography"
  },
  {
   "id": 170,
@@ -4081,7 +4250,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "The Maimon scan sends FIN/ACK. RST means closed."
+  "explanation": "The Maimon scan sends FIN/ACK. RST means closed.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 171,
@@ -4105,7 +4275,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Bluto performs DNS recon, zone transfers and brute forcing."
+  "explanation": "Bluto performs DNS recon, zone transfers and brute forcing.",
+  "topic": "Footprinting & Reconnaissance"
  },
  {
   "id": 172,
@@ -4129,7 +4300,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Abusing iTunes Wi-Fi sync trust is iOS trustjacking."
+  "explanation": "Abusing iTunes Wi-Fi sync trust is iOS trustjacking.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 173,
@@ -4153,7 +4325,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Hiding data in DNS queries is DNS tunneling."
+  "explanation": "Hiding data in DNS queries is DNS tunneling.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 174,
@@ -4177,7 +4350,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Verifying, validating and signing images happens in Tier-2 (testing and accreditation)."
+  "explanation": "Verifying, validating and signing images happens in Tier-2 (testing and accreditation).",
+  "topic": "Cloud, IoT & OT"
  },
  {
   "id": 175,
@@ -4201,7 +4375,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Web-Stat provides website traffic analytics and visitor geolocation."
+  "explanation": "Web-Stat provides website traffic analytics and visitor geolocation.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 176,
@@ -4225,7 +4400,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Checking for rogue APs and weak wireless security is a wireless network assessment."
+  "explanation": "Checking for rogue APs and weak wireless security is a wireless network assessment.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 177,
@@ -4249,7 +4425,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "curl -s pipes page source to grep for href links, then filters and cuts."
+  "explanation": "curl -s pipes page source to grep for href links, then filters and cuts.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 178,
@@ -4273,7 +4450,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "The telecom providing connectivity and transport is the cloud carrier."
+  "explanation": "The telecom providing connectivity and transport is the cloud carrier.",
+  "topic": "Cloud, IoT & OT"
  },
  {
   "id": 179,
@@ -4297,7 +4475,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "A fix was available for months, so this is a patch management failure."
+  "explanation": "A fix was available for months, so this is a patch management failure.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 180,
@@ -4321,7 +4500,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Agent Smith malware replaced legit apps with malicious versions showing ads."
+  "explanation": "Agent Smith malware replaced legit apps with malicious versions showing ads.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 181,
@@ -4345,7 +4525,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Twofish uses a 128-bit block and keys up to 256 bits."
+  "explanation": "Twofish uses a 128-bit block and keys up to 256 bits.",
+  "topic": "Cryptography"
  },
  {
   "id": 182,
@@ -4369,7 +4550,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Response time means time-based. True/false means boolean-based."
+  "explanation": "Response time means time-based. True/false means boolean-based.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 183,
@@ -4393,7 +4575,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "The script sends document.cookie to the attacker (stored XSS cookie theft)."
+  "explanation": "The script sends document.cookie to the attacker (stored XSS cookie theft).",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 184,
@@ -4417,7 +4600,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "The quote closes the username, 'or 1=1' makes it true, and '--' comments out the password check. The password stays 123456."
+  "explanation": "The quote closes the username, 'or 1=1' makes it true, and '--' comments out the password check. The password stays 123456.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 185,
@@ -4441,7 +4625,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "netstat shows suspicious outbound connections from a trojan."
+  "explanation": "netstat shows suspicious outbound connections from a trojan.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 186,
@@ -4465,7 +4650,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "A deceptive email link to a malicious site is phishing."
+  "explanation": "A deceptive email link to a malicious site is phishing.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 187,
@@ -4489,7 +4675,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Slowloris holds connections open with partial HTTP requests."
+  "explanation": "Slowloris holds connections open with partial HTTP requests.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 188,
@@ -4513,7 +4700,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Giving the victim the attacker's own session ID is session donation."
+  "explanation": "Giving the victim the attacker's own session ID is session donation.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 189,
@@ -4537,7 +4725,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "A RESTful API uses HTTP verbs and offers those performance and scalability benefits."
+  "explanation": "A RESTful API uses HTTP verbs and offers those performance and scalability benefits.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 190,
@@ -4561,7 +4750,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Variation: changing the form of the comparison, e.g. 'or '1'='1'."
+  "explanation": "Variation: changing the form of the comparison, e.g. 'or '1'='1'.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 191,
@@ -4585,7 +4775,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Copying an entire site locally is website mirroring."
+  "explanation": "Copying an entire site locally is website mirroring.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 192,
@@ -4609,7 +4800,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "An attractive fake profile used to extract info is a honey trap."
+  "explanation": "An attractive fake profile used to extract info is a honey trap.",
+  "topic": "Social Engineering"
  },
  {
   "id": 193,
@@ -4633,7 +4825,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Encrypt with Bryan's public key. Verify the signature with Alice's public key."
+  "explanation": "Encrypt with Bryan's public key. Verify the signature with Alice's public key.",
+  "topic": "Cryptography"
  },
  {
   "id": 194,
@@ -4657,7 +4850,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Predicting the ISN and spoofing to take over the session is TCP/IP hijacking."
+  "explanation": "Predicting the ISN and spoofing to take over the session is TCP/IP hijacking.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 195,
@@ -4681,7 +4875,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "An unsolicited ACK with no RST was dropped, which indicates a stateful firewall."
+  "explanation": "An unsolicited ACK with no RST was dropped, which indicates a stateful firewall.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 196,
@@ -4705,7 +4900,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Spear-phishing and exploiting public servers to get in is Initial Intrusion."
+  "explanation": "Spear-phishing and exploiting public servers to get in is Initial Intrusion.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 197,
@@ -4729,7 +4925,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "CVSS v3.1 Medium = 4.0 to 6.9."
+  "explanation": "CVSS v3.1 Medium = 4.0 to 6.9.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 198,
@@ -4753,7 +4950,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Personal-question posts collect answers to security questions."
+  "explanation": "Personal-question posts collect answers to security questions.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 199,
@@ -4777,7 +4975,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "NSTX tunnels IP over DNS, UDP port 53."
+  "explanation": "NSTX tunnels IP over DNS, UDP port 53.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 200,
@@ -4801,7 +5000,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "AndroidManifest.xml declares components and permissions."
+  "explanation": "AndroidManifest.xml declares components and permissions.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 201,
@@ -4826,7 +5026,8 @@
   ],
   "answer": "C",
   "explanation": "The attacker first sends a query to the target resolver to trigger a recursive lookup, then floods it with forged replies.",
-  "disputed": true
+  "disputed": true,
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 202,
@@ -4850,7 +5051,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Extra characters added to the password before hashing is salting, which defeats rainbow tables."
+  "explanation": "Extra characters added to the password before hashing is salting, which defeats rainbow tables.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 203,
@@ -4874,7 +5076,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "ARIN (a regional Internet registry) Whois returns the network range for an IP."
+  "explanation": "ARIN (a regional Internet registry) Whois returns the network range for an IP.",
+  "topic": "Footprinting & Reconnaissance"
  },
  {
   "id": 204,
@@ -4898,7 +5101,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "WPA3-Enterprise offers a 192-bit security mode (GCMP-256, HMAC-SHA384, ECDSA-384)."
+  "explanation": "WPA3-Enterprise offers a 192-bit security mode (GCMP-256, HMAC-SHA384, ECDSA-384).",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 205,
@@ -4922,7 +5126,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "The correct URL lands on a different, insecure site, which is DNS hijacking."
+  "explanation": "The correct URL lands on a different, insecure site, which is DNS hijacking.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 206,
@@ -4946,7 +5151,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Windows' default TTL is 128 (Linux 64, Cisco/Solaris 255)."
+  "explanation": "Windows' default TTL is 128 (Linux 64, Cisco/Solaris 255).",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 207,
@@ -4970,7 +5176,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "php.ini controls PHP settings such as display_errors, which can leak verbose errors."
+  "explanation": "php.ini controls PHP settings such as display_errors, which can leak verbose errors.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 208,
@@ -4994,7 +5201,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Exhausting the DHCP pool with forged requests is DHCP starvation."
+  "explanation": "Exhausting the DHCP pool with forged requests is DHCP starvation.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 209,
@@ -5018,7 +5226,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "The TPM stores and seals keys tied to that specific hardware."
+  "explanation": "The TPM stores and seals keys tied to that specific hardware.",
+  "topic": "Cryptography"
  },
  {
   "id": 210,
@@ -5042,7 +5251,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Port 22 is SSH. The high ephemeral source port (54373) is the client and port 22 is the server."
+  "explanation": "Port 22 is SSH. The high ephemeral source port (54373) is the client and port 22 is the server.",
+  "topic": "Cryptography"
  },
  {
   "id": 211,
@@ -5066,7 +5276,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "LNMIB2.MIB holds object types for workstation and server services."
+  "explanation": "LNMIB2.MIB holds object types for workstation and server services.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 212,
@@ -5090,7 +5301,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "filetype: restricts results to a file extension."
+  "explanation": "filetype: restricts results to a file extension.",
+  "topic": "Footprinting & Reconnaissance"
  },
  {
   "id": 213,
@@ -5114,7 +5326,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Bluesnarfing steals data over Bluetooth."
+  "explanation": "Bluesnarfing steals data over Bluetooth.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 214,
@@ -5138,7 +5351,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Applying fixes to vulnerable systems is remediation."
+  "explanation": "Applying fixes to vulnerable systems is remediation.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 215,
@@ -5162,7 +5376,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "aLTEr attacks use a fake LTE tower (MITM) to redirect DNS and traffic."
+  "explanation": "aLTEr attacks use a fake LTE tower (MITM) to redirect DNS and traffic.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 216,
@@ -5186,7 +5401,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Analyzing type, severity, target, impact and propagation happens in incident triage."
+  "explanation": "Analyzing type, severity, target, impact and propagation happens in incident triage.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 217,
@@ -5210,7 +5426,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "UDP 161 is SNMP. SNMPv3 adds encryption and authentication."
+  "explanation": "UDP 161 is SNMP. SNMPv3 adds encryption and authentication.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 218,
@@ -5235,7 +5452,8 @@
   ],
   "answer": "C",
   "explanation": "Hootsuite monitors social media and can do location-based searches.",
-  "disputed": true
+  "disputed": true,
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 219,
@@ -5259,7 +5477,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Many domains pointing to one host for quick switching is an unspecified proxy activity indicator."
+  "explanation": "Many domains pointing to one host for quick switching is an unspecified proxy activity indicator.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 220,
@@ -5283,7 +5502,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Using a list of common passwords is a dictionary attack."
+  "explanation": "Using a list of common passwords is a dictionary attack.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 221,
@@ -5307,7 +5527,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "DNS cache poisoning to redirect users to a fake site is pharming."
+  "explanation": "DNS cache poisoning to redirect users to a fake site is pharming.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 222,
@@ -5332,7 +5553,8 @@
   ],
   "answer": "B",
   "explanation": "He disclosed responsibly to the owner and the vendor to help them. The expected answer is white hat.",
-  "disputed": true
+  "disputed": true,
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 223,
@@ -5356,7 +5578,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Making the server fetch internal resources through a URL parameter is SSRF."
+  "explanation": "Making the server fetch internal resources through a URL parameter is SSRF.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 224,
@@ -5380,7 +5603,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Dragonblood is a set of vulnerabilities in WPA3's SAE (Dragonfly) handshake."
+  "explanation": "Dragonblood is a set of vulnerabilities in WPA3's SAE (Dragonfly) handshake.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 225,
@@ -5404,7 +5628,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "../ reaching parent folders is directory traversal."
+  "explanation": "../ reaching parent folders is directory traversal.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 226,
@@ -5428,7 +5653,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Fake calls and phishing to steal IAM credentials are social engineering."
+  "explanation": "Fake calls and phishing to steal IAM credentials are social engineering.",
+  "topic": "Social Engineering"
  },
  {
   "id": 227,
@@ -5452,7 +5678,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Stealthy, long-term presence to steal data is an APT."
+  "explanation": "Stealthy, long-term presence to steal data is an APT.",
+  "topic": "Social Engineering"
  },
  {
   "id": 228,
@@ -5476,7 +5703,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Idle (zombie) scans use an idle host's predictable IP ID."
+  "explanation": "Idle (zombie) scans use an idle host's predictable IP ID.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 229,
@@ -5500,7 +5728,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "An untethered jailbreak patches the kernel at boot, so it survives every reboot."
+  "explanation": "An untethered jailbreak patches the kernel at boot, so it survives every reboot.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 230,
@@ -5524,7 +5753,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Webhooks are user-defined HTTP callbacks triggered by events."
+  "explanation": "Webhooks are user-defined HTTP callbacks triggered by events.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 231,
@@ -5548,7 +5778,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Port 389 is LDAP (cleartext). Move to LDAPS on 636."
+  "explanation": "Port 389 is LDAP (cleartext). Move to LDAPS on 636.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 232,
@@ -5572,7 +5803,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Limit admin/root access to the minimum number of users."
+  "explanation": "Limit admin/root access to the minimum number of users.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 233,
@@ -5596,7 +5828,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Sniffing traffic to find systems and users is a passive assessment."
+  "explanation": "Sniffing traffic to find systems and users is a passive assessment.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 234,
@@ -5621,7 +5854,8 @@
   ],
   "answer": "C",
   "explanation": "Gobuster always uses a wordlist. Skipping TLS certificate verification (-k) removes overhead and speeds it up.",
-  "disputed": true
+  "disputed": true,
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 235,
@@ -5645,7 +5879,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Medical records are PHI protected by HIPAA."
+  "explanation": "Medical records are PHI protected by HIPAA.",
+  "topic": "Footprinting & Reconnaissance"
  },
  {
   "id": 236,
@@ -5669,7 +5904,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "NetBIOS <03> is the Messenger service."
+  "explanation": "NetBIOS <03> is the Messenger service.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 237,
@@ -5693,7 +5929,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "A rogue switch with the lowest priority becomes root bridge: an STP attack."
+  "explanation": "A rogue switch with the lowest priority becomes root bridge: an STP attack.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 238,
@@ -5717,7 +5954,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "SMB runs directly over TCP 445."
+  "explanation": "SMB runs directly over TCP 445.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 239,
@@ -5741,7 +5979,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "A scanner installed on a victim machine is agent-based."
+  "explanation": "A scanner installed on a victim machine is agent-based.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 240,
@@ -5765,7 +6004,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Requiring NTLM (or Kerberos) authentication stops anonymous LDAP queries."
+  "explanation": "Requiring NTLM (or Kerberos) authentication stops anonymous LDAP queries.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 241,
@@ -5789,7 +6029,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Capturing and re-sending RF command signals is a replay attack."
+  "explanation": "Capturing and re-sending RF command signals is a replay attack.",
+  "topic": "Cloud, IoT & OT"
  },
  {
   "id": 242,
@@ -5813,7 +6054,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "WEP = Wired Equivalent Privacy, designed to mimic wired security."
+  "explanation": "WEP = Wired Equivalent Privacy, designed to mimic wired security.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 243,
@@ -5837,7 +6079,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Sarbanes-Oxley (SOX), 2002."
+  "explanation": "Sarbanes-Oxley (SOX), 2002.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 244,
@@ -5861,7 +6104,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "-sV performs service and version detection."
+  "explanation": "-sV performs service and version detection.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 245,
@@ -5885,7 +6129,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Checking registries, file permissions and configuration on a host is a host-based assessment."
+  "explanation": "Checking registries, file permissions and configuration on a host is a host-based assessment.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 246,
@@ -5909,7 +6154,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Zigbee is based on IEEE 802.15.4, low rate, 10 to 100 m."
+  "explanation": "Zigbee is based on IEEE 802.15.4, low rate, 10 to 100 m.",
+  "topic": "Cloud, IoT & OT"
  },
  {
   "id": 247,
@@ -5933,7 +6179,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Wireshark with AirPcap captures raw 802.11 on Windows."
+  "explanation": "Wireshark with AirPcap captures raw 802.11 on Windows.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 248,
@@ -5957,7 +6204,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Passive sniffing only listens. Modifying and replaying traffic is active."
+  "explanation": "Passive sniffing only listens. Modifying and replaying traffic is active.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 249,
@@ -5981,7 +6229,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Following an employee in without their consent is tailgating."
+  "explanation": "Following an employee in without their consent is tailgating.",
+  "topic": "Social Engineering"
  },
  {
   "id": 250,
@@ -6005,7 +6254,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "A WIPS detects and locates rogue access points."
+  "explanation": "A WIPS detects and locates rogue access points.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 251,
@@ -6029,7 +6279,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "10.1.4.0/23 spans 10.1.4.0 to 10.1.5.255. The last 100 usable addresses are 10.1.5.155 to .254."
+  "explanation": "10.1.4.0/23 spans 10.1.4.0 to 10.1.5.255. The last 100 usable addresses are 10.1.5.155 to .254.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 252,
@@ -6053,7 +6304,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "hping2 -1 selects ICMP mode."
+  "explanation": "hping2 -1 selects ICMP mode.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 253,
@@ -6077,7 +6329,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "RADIUS is the classic ISP AAA protocol for dial-up, DSL and VPN users."
+  "explanation": "RADIUS is the classic ISP AAA protocol for dial-up, DSL and VPN users.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 254,
@@ -6101,7 +6354,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Anomaly-based IDS can detect unknown (zero-day) attacks."
+  "explanation": "Anomaly-based IDS can detect unknown (zero-day) attacks.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 255,
@@ -6125,7 +6379,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "CSRF makes the victim's browser send a request without the user's knowledge."
+  "explanation": "CSRF makes the victim's browser send a request without the user's knowledge.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 256,
@@ -6149,7 +6404,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Metasploit is an exploit framework."
+  "explanation": "Metasploit is an exploit framework.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 257,
@@ -6173,7 +6429,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Trying a list of common passwords is a dictionary attack."
+  "explanation": "Trying a list of common passwords is a dictionary attack.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 258,
@@ -6197,7 +6454,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Only public keys are shared."
+  "explanation": "Only public keys are shared.",
+  "topic": "Cryptography"
  },
  {
   "id": 259,
@@ -6221,7 +6479,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Snort is an IDS/IPS, sniffer and packet logger."
+  "explanation": "Snort is an IDS/IPS, sniffer and packet logger.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 260,
@@ -6245,7 +6504,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "compmgmt.msc opens Computer Management."
+  "explanation": "compmgmt.msc opens Computer Management.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 261,
@@ -6269,7 +6529,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Fragmented SYN/FIN scans split the TCP header across packets."
+  "explanation": "Fragmented SYN/FIN scans split the TCP header across packets.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 262,
@@ -6293,7 +6554,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Cryptcat (encrypted netcat) hides traffic content from the IDS."
+  "explanation": "Cryptcat (encrypted netcat) hides traffic content from the IDS.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 263,
@@ -6317,7 +6579,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "A botnet trojan makes the host a bot for spam and DDoS."
+  "explanation": "A botnet trojan makes the host a bot for spam and DDoS.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 264,
@@ -6341,7 +6604,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Salting defeats rainbow tables."
+  "explanation": "Salting defeats rainbow tables.",
+  "topic": "Cryptography"
  },
  {
   "id": 265,
@@ -6365,7 +6629,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Non-repudiation proves the sender can't deny sending."
+  "explanation": "Non-repudiation proves the sender can't deny sending.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 266,
@@ -6389,7 +6654,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Inferring data from true/false responses is blind SQLi."
+  "explanation": "Inferring data from true/false responses is blind SQLi.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 267,
@@ -6413,7 +6679,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "ACLs are processed top-down. 'deny tcp any any' first blocks all TCP."
+  "explanation": "ACLs are processed top-down. 'deny tcp any any' first blocks all TCP.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 268,
@@ -6437,7 +6704,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Port scanning, banner grabbing and service identification show the technical security posture."
+  "explanation": "Port scanning, banner grabbing and service identification show the technical security posture.",
+  "topic": "Social Engineering"
  },
  {
   "id": 269,
@@ -6461,7 +6729,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "A WAF inspects HTTP payloads for SQLi."
+  "explanation": "A WAF inspects HTTP payloads for SQLi.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 270,
@@ -6485,7 +6754,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "An Xmas scan sets FIN, PSH and URG."
+  "explanation": "An Xmas scan sets FIN, PSH and URG.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 271,
@@ -6509,7 +6779,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Negligence liability of executives falls under civil law."
+  "explanation": "Negligence liability of executives falls under civil law.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 272,
@@ -6533,7 +6804,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Authenticate once for many systems is single sign-on."
+  "explanation": "Authenticate once for many systems is single sign-on.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 273,
@@ -6557,7 +6829,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "-sS is the SYN 'stealth' (half-open) scan."
+  "explanation": "-sS is the SYN 'stealth' (half-open) scan.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 274,
@@ -6581,7 +6854,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "IPsec builds secure VPN tunnels."
+  "explanation": "IPsec builds secure VPN tunnels.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 275,
@@ -6605,7 +6879,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "OS detection needs raw sockets, so it requires root."
+  "explanation": "OS detection needs raw sockets, so it requires root.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 276,
@@ -6629,7 +6904,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Shellshock is most commonly exploited via CGI environment variables on web servers."
+  "explanation": "Shellshock is most commonly exploited via CGI environment variables on web servers.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 277,
@@ -6653,7 +6929,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "A TTL-exceeded response on 23 means the probe passed the firewall, so port 23 is allowed."
+  "explanation": "A TTL-exceeded response on 23 means the probe passed the firewall, so port 23 is allowed.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 278,
@@ -6677,7 +6954,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Sending growing buffers to each command is a buffer overflow fuzzer."
+  "explanation": "Sending growing buffers to each command is a buffer overflow fuzzer.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 279,
@@ -6701,7 +6979,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "The logic (business) tier processes and moves data between tiers."
+  "explanation": "The logic (business) tier processes and moves data between tiers.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 280,
@@ -6725,7 +7004,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Pharming redirects via hosts/DNS. Phishing uses deceptive look-alike URLs."
+  "explanation": "Pharming redirects via hosts/DNS. Phishing uses deceptive look-alike URLs.",
+  "topic": "Social Engineering"
  },
  {
   "id": 281,
@@ -6749,7 +7029,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "The SSID appears in probe and association frames and can be sniffed."
+  "explanation": "The SSID appears in probe and association frames and can be sniffed.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 282,
@@ -6773,7 +7054,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Executing code in a virtual CPU/memory is code emulation."
+  "explanation": "Executing code in a virtual CPU/memory is code emulation.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 283,
@@ -6797,7 +7079,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Packet sniffers operate at Layer 2 (data link)."
+  "explanation": "Packet sniffers operate at Layer 2 (data link).",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 284,
@@ -6821,7 +7104,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Directly changing name=Ned to access another user's object is IDOR."
+  "explanation": "Directly changing name=Ned to access another user's object is IDOR.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 285,
@@ -6845,7 +7129,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "A reported vulnerability that is already fixed is a false positive."
+  "explanation": "A reported vulnerability that is already fixed is a false positive.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 286,
@@ -6869,7 +7154,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "ARP is local-segment only, so it's irrelevant for a public IP."
+  "explanation": "ARP is local-segment only, so it's irrelevant for a public IP.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 287,
@@ -6893,7 +7179,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Firewall/proxy logs show what the PC communicated with the C2 server."
+  "explanation": "Firewall/proxy logs show what the PC communicated with the C2 server.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 288,
@@ -6917,7 +7204,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Yagi antennas are used in the 10 MHz to VHF/UHF range."
+  "explanation": "Yagi antennas are used in the 10 MHz to VHF/UHF range.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 289,
@@ -6942,7 +7230,8 @@
   ],
   "answer": "D",
   "explanation": "In the CEH reference table 802.11a's range is about 25 to 75 ft, so the 150 ft entry for 802.11a is the wrong one. (The table in the source text is partly garbled.)",
-  "disputed": true
+  "disputed": true,
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 290,
@@ -6966,7 +7255,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "USB Grabber silently copies files from USB devices."
+  "explanation": "USB Grabber silently copies files from USB devices.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 291,
@@ -6990,7 +7280,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "A remote-access policy governs modems and dial-in/out."
+  "explanation": "A remote-access policy governs modems and dial-in/out.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 292,
@@ -7014,7 +7305,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "On Windows, ping -n 6 sends 6 echo requests."
+  "explanation": "On Windows, ping -n 6 sends 6 echo requests.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 293,
@@ -7038,7 +7330,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Kismet is a passive wireless sniffer for Linux."
+  "explanation": "Kismet is a passive wireless sniffer for Linux.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 294,
@@ -7062,7 +7355,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Blocking HTML input mitigates XSS."
+  "explanation": "Blocking HTML input mitigates XSS.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 295,
@@ -7086,7 +7380,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Business Impact Analysis identifies critical processes and the impact of their disruption."
+  "explanation": "Business Impact Analysis identifies critical processes and the impact of their disruption.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 296,
@@ -7110,7 +7405,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Forcing the browser to send an authenticated request is CSRF."
+  "explanation": "Forcing the browser to send an authenticated request is CSRF.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 297,
@@ -7134,7 +7430,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "SOAP isn't limited to HTTP. It can also use SMTP, TCP, etc."
+  "explanation": "SOAP isn't limited to HTTP. It can also use SMTP, TCP, etc.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 298,
@@ -7158,7 +7455,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Netcat to port 80 revealing server headers is banner grabbing."
+  "explanation": "Netcat to port 80 revealing server headers is banner grabbing.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 299,
@@ -7182,7 +7480,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "/28 covers only .64 to .79. The servers at .122 to .124 are outside it."
+  "explanation": "/28 covers only .64 to .79. The servers at .122 to .124 are outside it.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 300,
@@ -7206,7 +7505,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "A hidden iframe submitting a request on the victim's behalf is CSRF."
+  "explanation": "A hidden iframe submitting a request on the victim's behalf is CSRF.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 301,
@@ -7230,7 +7530,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "msfencode encodes payloads to evade AV signatures (now merged into msfvenom)."
+  "explanation": "msfencode encodes payloads to evade AV signatures (now merged into msfvenom).",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 302,
@@ -7254,7 +7555,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Burp Suite is an intercepting proxy for manual web app testing."
+  "explanation": "Burp Suite is an intercepting proxy for manual web app testing.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 303,
@@ -7278,7 +7580,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "-T5 (insane) is the fastest and noisiest timing template."
+  "explanation": "-T5 (insane) is the fastest and noisiest timing template.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 304,
@@ -7302,7 +7605,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Bluejacking sends unsolicited messages over Bluetooth."
+  "explanation": "Bluejacking sends unsolicited messages over Bluetooth.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 305,
@@ -7326,7 +7630,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "-D sets decoy (spoofed) source IPs."
+  "explanation": "-D sets decoy (spoofed) source IPs.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 306,
@@ -7350,7 +7655,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Time-based TCP fingerprinting (SYN proxy behaviour) detects Honeyd."
+  "explanation": "Time-based TCP fingerprinting (SYN proxy behaviour) detects Honeyd.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 307,
@@ -7374,7 +7680,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "An ACK scan (-sA) maps firewall rules and reveals stateful vs stateless filtering."
+  "explanation": "An ACK scan (-sA) maps firewall rules and reveals stateful vs stateless filtering.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 308,
@@ -7398,7 +7705,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Decompiling and disassembling an app is reverse engineering."
+  "explanation": "Decompiling and disassembling an app is reverse engineering.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 309,
@@ -7422,7 +7730,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Emotet's credential enumerator is a self-extracting RAR that finds network resources and writable shares."
+  "explanation": "Emotet's credential enumerator is a self-extracting RAR that finds network resources and writable shares.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 310,
@@ -7446,7 +7755,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Kernel-level rootkits add or replace kernel code."
+  "explanation": "Kernel-level rootkits add or replace kernel code.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 311,
@@ -7470,7 +7780,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Machine-readable IOCs fed into security devices are technical threat intelligence."
+  "explanation": "Machine-readable IOCs fed into security devices are technical threat intelligence.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 312,
@@ -7494,7 +7805,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Files starting with '.' are hidden in Linux."
+  "explanation": "Files starting with '.' are hidden in Linux.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 313,
@@ -7518,7 +7830,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Missing attribute-based access control (ABAC) validation allows unauthorized access to API objects."
+  "explanation": "Missing attribute-based access control (ABAC) validation allows unauthorized access to API objects.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 314,
@@ -7542,7 +7855,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Evilginx is a phishing/MITM framework that captures credentials and session cookies."
+  "explanation": "Evilginx is a phishing/MITM framework that captures credentials and session cookies.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 315,
@@ -7566,7 +7880,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Censys continuously scans the Internet and reports on devices and services."
+  "explanation": "Censys continuously scans the Internet and reports on devices and services.",
+  "topic": "Cloud, IoT & OT"
  },
  {
   "id": 316,
@@ -7590,7 +7905,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "An ARP spoof shows up in the ARP table as one IP address mapped to two different MACs, or the gateway IP with the attacker's MAC."
+  "explanation": "An ARP spoof shows up in the ARP table as one IP address mapped to two different MACs, or the gateway IP with the attacker's MAC.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 317,
@@ -7614,7 +7930,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Assessing from the outside (firewalls, routers, servers) is an external assessment."
+  "explanation": "Assessing from the outside (firewalls, routers, servers) is an external assessment.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 318,
@@ -7638,7 +7955,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "related: finds sites similar to a URL."
+  "explanation": "related: finds sites similar to a URL.",
+  "topic": "Footprinting & Reconnaissance"
  },
  {
   "id": 319,
@@ -7662,7 +7980,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "He built the payload but hasn't sent it yet, so weaponization is the last stage done."
+  "explanation": "He built the payload but hasn't sent it yet, so weaponization is the last stage done.",
+  "topic": "Footprinting & Reconnaissance"
  },
  {
   "id": 320,
@@ -7686,7 +8005,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Vendor lock-in makes switching CSPs hard."
+  "explanation": "Vendor lock-in makes switching CSPs hard.",
+  "topic": "Cloud, IoT & OT"
  },
  {
   "id": 321,
@@ -7710,7 +8030,8 @@
    }
   ],
   "answer": "A",
-  "explanation": ".stm/.shtml/.shtm files are processed for SSI directives."
+  "explanation": ".stm/.shtml/.shtm files are processed for SSI directives.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 322,
@@ -7734,7 +8055,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "A fake infection warning pushing a 'fix' is scareware."
+  "explanation": "A fake infection warning pushing a 'fix' is scareware.",
+  "topic": "Social Engineering"
  },
  {
   "id": 323,
@@ -7758,7 +8080,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "GPG (GnuPG) is the free OpenPGP implementation."
+  "explanation": "GPG (GnuPG) is the free OpenPGP implementation.",
+  "topic": "Cryptography"
  },
  {
   "id": 324,
@@ -7782,7 +8105,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "CAST-128: 64-bit block, 12/16 rounds, four 8x32 S-boxes, Km/Kr keys."
+  "explanation": "CAST-128: 64-bit block, 12/16 rounds, four 8x32 S-boxes, Km/Kr keys.",
+  "topic": "Cryptography"
  },
  {
   "id": 325,
@@ -7806,7 +8130,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "IoTSeeker detects IoT devices using default credentials."
+  "explanation": "IoTSeeker detects IoT devices using default credentials.",
+  "topic": "Cloud, IoT & OT"
  },
  {
   "id": 326,
@@ -7830,7 +8155,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "UNION SQLi appends results of another SELECT with the same structure."
+  "explanation": "UNION SQLi appends results of another SELECT with the same structure.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 327,
@@ -7854,7 +8180,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "A VPN creates an encrypted tunnel over a public network."
+  "explanation": "A VPN creates an encrypted tunnel over a public network.",
+  "topic": "Cryptography"
  },
  {
   "id": 328,
@@ -7878,7 +8205,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Network scanning maps the target's network infrastructure."
+  "explanation": "Network scanning maps the target's network infrastructure.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 329,
@@ -7902,7 +8230,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Encrypting the checksum with his own private key is a signature Alice verifies with Bob's public key."
+  "explanation": "Encrypting the checksum with his own private key is a signature Alice verifies with Bob's public key.",
+  "topic": "Cryptography"
  },
  {
   "id": 330,
@@ -7926,7 +8255,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Key stretching turns a weak key into a stronger one that resists brute force."
+  "explanation": "Key stretching turns a weak key into a stronger one that resists brute force.",
+  "topic": "Cryptography"
  },
  {
   "id": 331,
@@ -7950,7 +8280,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "kube-scheduler assigns nodes to new pods."
+  "explanation": "kube-scheduler assigns nodes to new pods.",
+  "topic": "Cloud, IoT & OT"
  },
  {
   "id": 332,
@@ -7974,7 +8305,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "'Never trust, always verify' plus least privilege is zero trust."
+  "explanation": "'Never trust, always verify' plus least privilege is zero trust.",
+  "topic": "Cloud, IoT & OT"
  },
  {
   "id": 333,
@@ -7998,7 +8330,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "In Btlejack, -t with -m hijacks (takes over) the connection. -j only jams it."
+  "explanation": "In Btlejack, -t with -m hijacks (takes over) the connection. -j only jams it.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 334,
@@ -8022,7 +8355,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Corrupting event logs is covering (clearing) tracks."
+  "explanation": "Corrupting event logs is covering (clearing) tracks.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 335,
@@ -8046,7 +8380,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "TTL 64 with window size 5840 is Linux (2.4/2.6 kernel)."
+  "explanation": "TTL 64 with window size 5840 is Linux (2.4/2.6 kernel).",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 336,
@@ -8070,7 +8405,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "MAC flooding overflows the switch CAM table."
+  "explanation": "MAC flooding overflows the switch CAM table.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 337,
@@ -8094,7 +8430,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "-D (decoys) hides the real scanner among spoofed sources."
+  "explanation": "-D (decoys) hides the real scanner among spoofed sources.",
+  "topic": "Evasion: IDS, Firewalls & Honeypots"
  },
  {
   "id": 338,
@@ -8118,7 +8455,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Cloudborne implants firmware backdoors on bare-metal servers that persist across tenants."
+  "explanation": "Cloudborne implants firmware backdoors on bare-metal servers that persist across tenants.",
+  "topic": "Cloud, IoT & OT"
  },
  {
   "id": 339,
@@ -8142,7 +8480,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "sqlmap --dbs enumerates the databases."
+  "explanation": "sqlmap --dbs enumerates the databases.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 340,
@@ -8166,7 +8505,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Forcing a WPA3-capable client to use WPA2 is a downgrade attack."
+  "explanation": "Forcing a WPA3-capable client to use WPA2 is a downgrade attack.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 341,
@@ -8190,7 +8530,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Meterpreter's getsystem tries to escalate to SYSTEM."
+  "explanation": "Meterpreter's getsystem tries to escalate to SYSTEM.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 342,
@@ -8214,7 +8555,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Context about specific threats and attacker methodology from humans, social media and chat is operational intelligence."
+  "explanation": "Context about specific threats and attacker methodology from humans, social media and chat is operational intelligence.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 343,
@@ -8238,7 +8580,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "PCI-DSS applies to card data."
+  "explanation": "PCI-DSS applies to card data.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 344,
@@ -8262,7 +8605,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Worms self-propagate across systems and networks."
+  "explanation": "Worms self-propagate across systems and networks.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 345,
@@ -8286,7 +8630,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Docker provides OS-level virtualization containers."
+  "explanation": "Docker provides OS-level virtualization containers.",
+  "topic": "Cloud, IoT & OT"
  },
  {
   "id": 346,
@@ -8310,7 +8655,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Guardster is an anonymizer service."
+  "explanation": "Guardster is an anonymizer service.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 347,
@@ -8334,7 +8680,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "A Wi-Fi Pineapple impersonating a legitimate SSID is an evil twin."
+  "explanation": "A Wi-Fi Pineapple impersonating a legitimate SSID is an evil twin.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 348,
@@ -8358,7 +8705,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "The Internal Monologue attack downgrades to NetNTLMv1 and harvests tokens without touching LSASS."
+  "explanation": "The Internal Monologue attack downgrades to NetNTLMv1 and harvests tokens without touching LSASS.",
+  "topic": "Cryptography"
  },
  {
   "id": 349,
@@ -8382,7 +8730,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "The malicious email attachment targeting specific employees is spear phishing."
+  "explanation": "The malicious email attachment targeting specific employees is spear phishing.",
+  "topic": "Cloud, IoT & OT"
  },
  {
   "id": 350,
@@ -8406,7 +8755,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "VRFY and EXPN reveal valid users, aliases and mailing lists."
+  "explanation": "VRFY and EXPN reveal valid users, aliases and mailing lists.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 351,
@@ -8430,7 +8780,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "No errors, only true/false inference: blind SQLi."
+  "explanation": "No errors, only true/false inference: blind SQLi.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 352,
@@ -8454,7 +8805,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Glitching power and clock lines is power/clock/reset glitching."
+  "explanation": "Glitching power and clock lines is power/clock/reset glitching.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 353,
@@ -8478,7 +8830,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Each user keeping a ring of public keys (PGP style) is the Web of Trust."
+  "explanation": "Each user keeping a ring of public keys (PGP style) is the Web of Trust.",
+  "topic": "Cryptography"
  },
  {
   "id": 354,
@@ -8502,7 +8855,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "-S prints server response headers and -q is quiet. Together they grab the banner."
+  "explanation": "-S prints server response headers and -q is quiet. Together they grab the banner.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 355,
@@ -8526,7 +8880,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Cognitive radios at the physical layer counter jamming and scrambling."
+  "explanation": "Cognitive radios at the physical layer counter jamming and scrambling.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 356,
@@ -8550,7 +8905,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "In IaaS the customer maintains everything above the hardware."
+  "explanation": "In IaaS the customer maintains everything above the hardware.",
+  "topic": "Cloud, IoT & OT"
  },
  {
   "id": 357,
@@ -8574,7 +8930,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Accepting only approved values is whitelist validation."
+  "explanation": "Accepting only approved values is whitelist validation.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 358,
@@ -8598,7 +8955,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "WS-Security extends SOAP for integrity and confidentiality."
+  "explanation": "WS-Security extends SOAP for integrity and confidentiality.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 359,
@@ -8622,7 +8980,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Compromising sites the victims frequent is a watering hole attack."
+  "explanation": "Compromising sites the victims frequent is a watering hole attack.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 360,
@@ -8646,7 +9005,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "An external ENTITY with SYSTEM 'file:///etc/passwd' is XXE."
+  "explanation": "An external ENTITY with SYSTEM 'file:///etc/passwd' is XXE.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 361,
@@ -8670,7 +9030,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Port 21 is FTP."
+  "explanation": "Port 21 is FTP.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 362,
@@ -8694,7 +9055,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Web server footprinting gathers system-level data: account details, OS, software versions, server names."
+  "explanation": "Web server footprinting gathers system-level data: account details, OS, software versions, server names.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 363,
@@ -8718,7 +9080,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Spearphone uses the accelerometer to capture loudspeaker output."
+  "explanation": "Spearphone uses the accelerometer to capture loudspeaker output.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 364,
@@ -8742,7 +9105,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "WS-Addressing spoofing abuses SOAP routing headers."
+  "explanation": "WS-Addressing spoofing abuses SOAP routing headers.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 365,
@@ -8766,7 +9130,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Netsparker is an automated web vulnerability scanner."
+  "explanation": "Netsparker is an automated web vulnerability scanner.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 367,
@@ -8790,7 +9155,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "SOX protects investors from accounting errors and fraud."
+  "explanation": "SOX protects investors from accounting errors and fraud.",
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 368,
@@ -8814,7 +9180,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "WPA3-Personal replaces PSK with SAE."
+  "explanation": "WPA3-Personal replaces PSK with SAE.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 369,
@@ -8838,7 +9205,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "WPA3 uses SAE (Dragonfly)."
+  "explanation": "WPA3 uses SAE (Dragonfly).",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 370,
@@ -8862,7 +9230,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Serpent: 128-bit block, 32 rounds, 4-bit S-boxes on four 32-bit words."
+  "explanation": "Serpent: 128-bit block, 32 rounds, 4-bit S-boxes on four 32-bit words.",
+  "topic": "Cryptography"
  },
  {
   "id": 371,
@@ -8886,7 +9255,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Delivery = sending the payload (e.g. emailing the attachment)."
+  "explanation": "Delivery = sending the payload (e.g. emailing the attachment).",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 372,
@@ -8910,7 +9280,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Trident (Pegasus) exploits remotely jailbreak iPhones for spying."
+  "explanation": "Trident (Pegasus) exploits remotely jailbreak iPhones for spying.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 373,
@@ -8934,7 +9305,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "The OSINT Framework collects free recon tools."
+  "explanation": "The OSINT Framework collects free recon tools.",
+  "topic": "Footprinting & Reconnaissance"
  },
  {
   "id": 374,
@@ -8958,7 +9330,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "BetterCAP performs ARP spoofing and MITM."
+  "explanation": "BetterCAP performs ARP spoofing and MITM.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 375,
@@ -8982,7 +9355,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "-sV does service version detection."
+  "explanation": "-sV does service version detection.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 376,
@@ -9006,7 +9380,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "-PP is ICMP timestamp ping."
+  "explanation": "-PP is ICMP timestamp ping.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 377,
@@ -9030,7 +9405,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Netcat is a networking tool, not a password cracker."
+  "explanation": "Netcat is a networking tool, not a password cracker.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 378,
@@ -9054,7 +9430,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Tracing the origin of images is reverse image search."
+  "explanation": "Tracing the origin of images is reverse image search.",
+  "topic": "Footprinting & Reconnaissance"
  },
  {
   "id": 379,
@@ -9078,7 +9455,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Luring users with fraudulent email links is the phishing delivery technique."
+  "explanation": "Luring users with fraudulent email links is the phishing delivery technique.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 380,
@@ -9102,7 +9480,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Syhunt Hybrid automates web app security testing (XSS, SQLi, traversal)."
+  "explanation": "Syhunt Hybrid automates web app security testing (XSS, SQLi, traversal).",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 381,
@@ -9126,7 +9505,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Stealth viruses actively hide from AV."
+  "explanation": "Stealth viruses actively hide from AV.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 382,
@@ -9150,7 +9530,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Driving around looking for Wi-Fi is wardriving."
+  "explanation": "Driving around looking for Wi-Fi is wardriving.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 383,
@@ -9174,7 +9555,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Injecting SSI directives is server-side includes injection."
+  "explanation": "Injecting SSI directives is server-side includes injection.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 384,
@@ -9198,7 +9580,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Querying cached DNS records is DNS cache snooping."
+  "explanation": "Querying cached DNS records is DNS cache snooping.",
+  "topic": "Scanning & Enumeration"
  },
  {
   "id": 385,
@@ -9222,7 +9605,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Burp Suite has a proxy, intruder and sequencer (for token randomness)."
+  "explanation": "Burp Suite has a proxy, intruder and sequencer (for token randomness).",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 386,
@@ -9246,7 +9630,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "RIPE NCC covers Europe (France)."
+  "explanation": "RIPE NCC covers Europe (France).",
+  "topic": "Footprinting & Reconnaissance"
  },
  {
   "id": 387,
@@ -9270,7 +9655,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Storing recovery keys with a third party (AD) is key escrow."
+  "explanation": "Storing recovery keys with a third party (AD) is key escrow.",
+  "topic": "Cryptography"
  },
  {
   "id": 388,
@@ -9294,7 +9680,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Pharming redirects traffic using malicious code or DNS changes."
+  "explanation": "Pharming redirects traffic using malicious code or DNS changes.",
+  "topic": "Social Engineering"
  },
  {
   "id": 389,
@@ -9318,7 +9705,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Targeting executives is whaling."
+  "explanation": "Targeting executives is whaling.",
+  "topic": "Social Engineering"
  },
  {
   "id": 390,
@@ -9342,7 +9730,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Revealing which field was wrong is a verbose failure message that enables username enumeration."
+  "explanation": "Revealing which field was wrong is a verbose failure message that enables username enumeration.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 391,
@@ -9366,7 +9755,8 @@
    }
   ],
   "answer": "D",
-  "explanation": "Mirai botnets launch DDoS attacks."
+  "explanation": "Mirai botnets launch DDoS attacks.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 392,
@@ -9390,7 +9780,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "Forged SYN/ACK/RST/FIN sessions make up a spoofed session flood."
+  "explanation": "Forged SYN/ACK/RST/FIN sessions make up a spoofed session flood.",
+  "topic": "Sniffing, Hijacking & DoS"
  },
  {
   "id": 393,
@@ -9414,7 +9805,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "CeWL spiders a site to build a wordlist."
+  "explanation": "CeWL spiders a site to build a wordlist.",
+  "topic": "Footprinting & Reconnaissance"
  },
  {
   "id": 394,
@@ -9438,7 +9830,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "wash (from Reaver) finds WPS-enabled APs and their lock status."
+  "explanation": "wash (from Reaver) finds WPS-enabled APs and their lock status.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 395,
@@ -9463,7 +9856,8 @@
   ],
   "answer": "C",
   "explanation": "He reports the vulnerability but snoops without permission first, which mixes good and bad intent: gray hat.",
-  "disputed": true
+  "disputed": true,
+  "topic": "Security Concepts, Policy & Law"
  },
  {
   "id": 396,
@@ -9487,7 +9881,8 @@
    }
   ],
   "answer": "C",
-  "explanation": "Fake OTA provisioning messages with a PIN are advanced SMS phishing."
+  "explanation": "Fake OTA provisioning messages with a PIN are advanced SMS phishing.",
+  "topic": "Wireless & Mobile"
  },
  {
   "id": 397,
@@ -9511,7 +9906,8 @@
    }
   ],
   "answer": "B",
-  "explanation": "Inferring correctness from timing is a side-channel (timing) attack."
+  "explanation": "Inferring correctness from timing is a side-channel (timing) attack.",
+  "topic": "Malware & System Hacking"
  },
  {
   "id": 398,
@@ -9535,7 +9931,8 @@
    }
   ],
   "answer": "A",
-  "explanation": "The trailing '--' comments out the rest of the original query. That is an end-of-line comment injection."
+  "explanation": "The trailing '--' comments out the rest of the original query. That is an end-of-line comment injection.",
+  "topic": "Web Apps & Injection"
  },
  {
   "id": 399,
@@ -9559,6 +9956,7 @@
    }
   ],
   "answer": "A",
-  "explanation": "Full disk encryption keeps all data unreadable if the laptop is stolen. BIOS passwords and hidden folders are easy to bypass by removing the drive."
+  "explanation": "Full disk encryption keeps all data unreadable if the laptop is stolen. BIOS passwords and hidden folders are easy to bypass by removing the drive.",
+  "topic": "Malware & System Hacking"
  }
 ]

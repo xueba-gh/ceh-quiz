@@ -6,9 +6,17 @@ A Next.js app for practicing Certified Ethical Hacker (CEH) exam questions. It h
 
 - **Practice mode**: the correct answer and explanation appear as soon as you pick an option.
 - **Exam mode**: answer everything first, then see your score and review the questions you missed.
-- Choose how many questions to take (10, 25, 50, 125 or all) and whether to shuffle them.
-- **Retry wrong answers**: questions you miss are saved in your browser (localStorage) so you can quiz on just those.
-- **Study guide** (`/study`): every question with its answer, plus search.
+- **Exam timer**: optional countdown at real exam pace (125 questions in 4 hours). The exam submits itself when time runs out.
+- **Topics**: every question is tagged with a CEH topic (Cryptography, Web Apps, Wireless, …). You can quiz or study one topic at a time.
+- **Flag and jump**: flag questions to come back to, and use the question grid to jump to any question.
+- **Resume**: an unfinished quiz is saved, so a refresh or closing the phone app doesn't lose it.
+- **Recent scores**: your last results are shown on the start screen.
+- **Keyboard shortcuts**: A–D or 1–4 to answer, ← → to move, F to flag.
+- Choose how many questions to take and whether to shuffle them.
+- **Retry wrong answers**: questions you miss are remembered so you can quiz on just those.
+- **Study guide** (`/study`): every question with its answer, plus search and a topic filter.
+
+Progress (wrong answers, scores, a quiz in progress) is stored in your browser, so it's per device.
 - About ten questions are marked **Disputed answer** because answer keys online disagree on them. Double-check those against the official courseware.
 
 ## Login setup

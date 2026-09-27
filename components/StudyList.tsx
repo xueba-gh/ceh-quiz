@@ -3,21 +3,23 @@
 import { useMemo, useState } from "react";
 import type { Question } from "@/lib/questions";
 
-export default function StudyList({ questions }: { questions: Question[] }) {
+export default function StudyList({ questions, topics }: { questions: Question[]; topics: string[] }) {
   const [query, setQuery] = useState("");
+  const [topic, setTopic] = useState("");
   const [showAnswers, setShowAnswers] = useState(true);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    if (!q) return questions;
-    return questions.filter(
+    const inTopic = topic ? questions.filter((item) => item.topic === topic) : questions;
+    if (!q) return inTopic;
+    return inTopic.filter(
       (item) =>
         String(item.id) === q ||
         item.question.toLowerCase().includes(q) ||
         item.options.some((o) => o.text.toLowerCase().includes(q)) ||
         item.explanation.toLowerCase().includes(q),
     );
-  }, [query, questions]);
+  }, [query, topic, questions]);
 
   return (
     <section>
@@ -29,6 +31,14 @@ export default function StudyList({ questions }: { questions: Question[] }) {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
+        <select value={topic} onChange={(e) => setTopic(e.target.value)} aria-label="Topic">
+          <option value="">All topics</option>
+          {topics.map((t) => (
+            <option key={t} value={t}>
+              {t}
+            </option>
+          ))}
+        </select>
         <label className="check">
           <input type="checkbox" checked={showAnswers} onChange={(e) => setShowAnswers(e.target.checked)} />
           Show answers
@@ -40,6 +50,7 @@ export default function StudyList({ questions }: { questions: Question[] }) {
         <article key={q.id} className="card">
           <div className="card-meta">
             <span>Q{q.id}</span>
+            <span className="topic">{q.topic}</span>
             {showAnswers && q.disputed && <span className="badge">Disputed answer</span>}
           </div>
           <p className="stem">{q.question}</p>

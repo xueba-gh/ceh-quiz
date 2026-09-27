@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
-import { logout } from "./actions/auth";
+import SiteNav from "@/components/SiteNav";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -36,15 +36,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <Link href="/" className="brand">
             CEH Practice
           </Link>
-          <nav>
-            <Link href="/">Quiz</Link>
-            <Link href="/study">Study guide</Link>
-            <form action={logout}>
-              <button type="submit" className="nav-button">
-                Log out
-              </button>
-            </form>
-          </nav>
+          <SiteNav />
         </header>
         <main className="container">{children}</main>
       </body>

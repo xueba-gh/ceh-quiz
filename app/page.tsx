@@ -1,6 +1,6 @@
 import Quiz from "@/components/Quiz";
-import { questions } from "@/lib/questions";
+import { questions, topics } from "@/lib/questions";
 
 export default function Home() {
-  return <Quiz questions={questions} />;
+  return <Quiz questions={questions} topics={topics} />;
 }

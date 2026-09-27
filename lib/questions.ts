@@ -8,7 +8,10 @@ export type Question = {
   options: Option[];
   answer: string;
   explanation: string;
+  topic: string;
   disputed?: boolean;
 };
 
 export const questions = data as Question[];
+
+export const topics = [...new Set(questions.map((q) => q.topic))].sort();
