@@ -49511,5 +49511,55 @@
   "answer": "D",
   "explanation": "The answer is Avoid integrating quantum-resistant digital signatures into blockchain protocols. Source: CEH v13 Module 20: Cryptography.",
   "topic": "Cryptography"
+ },
+ {
+  "id": 1981,
+  "question": "Which indicator helps security analysts identify AI-based malware presence in the organization's systems?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Use of uncommon ports or protocols"
+   },
+   {
+    "key": "B",
+    "text": "Stable rate of false positives or negatives in security tools"
+   },
+   {
+    "key": "C",
+    "text": "Optimal CPU or memory usage patterns"
+   },
+   {
+    "key": "D",
+    "text": "Security solutions maintaining their effectiveness"
+   }
+  ],
+  "answer": "A",
+  "explanation": "The answer is Use of uncommon ports or protocols. Source: CEH v13 Module 7: Malware Threats.",
+  "topic": "Malware & System Hacking"
+ },
+ {
+  "id": 1982,
+  "question": "Which of the following tools allows attackers to inspect and modify traffic between a browser and target application?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Hetty"
+   },
+   {
+    "key": "B",
+    "text": "FileVault 2"
+   },
+   {
+    "key": "C",
+    "text": "Vindicate"
+   },
+   {
+    "key": "D",
+    "text": "BCTextEncoder"
+   }
+  ],
+  "answer": "A",
+  "explanation": "The answer is Hetty. Source: CEH v13 Module 11: Session Hijacking.",
+  "topic": "Sniffing, Hijacking & DoS"
  }
 ]
