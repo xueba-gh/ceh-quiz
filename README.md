@@ -1,6 +1,6 @@
 # CEH Practice Test
 
-A Next.js app for practicing Certified Ethical Hacker (CEH) exam questions. It has 398 multiple-choice questions, and each one comes with an answer and a short explanation. The app is behind a login.
+A Next.js app for practicing Certified Ethical Hacker (CEH) exam questions. It has 1,981 multiple-choice questions, and each one comes with an answer and a short explanation. The app is behind a login.
 
 ## Features
 
@@ -17,7 +17,8 @@ A Next.js app for practicing Certified Ethical Hacker (CEH) exam questions. It h
 - **Study guide** (`/study`): every question with its answer, plus search and a topic filter.
 
 Progress (wrong answers, scores, a quiz in progress) is stored in your browser, so it's per device.
-- About ten questions are marked **Disputed answer** because answer keys online disagree on them. Double-check those against the official courseware.
+- 1,583 of the questions come from a CEH v13 practice set (20 module assessments and two 125-question simulated exams). Their answers are the ones picked during those practice attempts, not an official key, and each explanation names the module or exam it came from.
+- 30 questions are marked **Disputed answer** because answer keys online disagree on them, or because the practice set flagged the answer as lower confidence. Double-check those against the official courseware.
 
 ## Login setup
 
